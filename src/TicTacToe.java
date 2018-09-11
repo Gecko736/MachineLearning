@@ -33,8 +33,9 @@ public class TicTacToe implements Game {
 
     @Override
     public State newState(Move move) {
-        int[] state = move.getState().getNums();
-        state[move.getMove()[0]] = state[0];
+        int[] state = new int[move.state.ints.length];
+        System.arraycopy(move.state.ints, 0, state, 0, state.length);
+        state[move.ints[0]] = state[0];
         if (state[0] == 1)
             state[0] = 2;
         else
@@ -51,7 +52,7 @@ public class TicTacToe implements Game {
     @Override
     public Move[] legalMoves(State state) {
         LinkedList<Integer> moves = new LinkedList<>();
-        int[] nums = state.getDoubles();
+        int[] nums = state.ints;
         for (int i = 1; i < nums.length; i++)
             if (nums[i] == 0)
                 moves.add(i);
@@ -65,8 +66,8 @@ public class TicTacToe implements Game {
 
     @Override
     public boolean legal(Move move) {
-        int[] state = move.getState().getNums();
-        int m = move.getMove()[0];
+        int[] state = move.state.ints;
+        int m = move.ints[0];
         for (int i = 1; i < state.length; i++)
             if (state[i] == 0 && i == m)
                 return true;
@@ -75,7 +76,7 @@ public class TicTacToe implements Game {
 
     @Override
     public int gameOver(State state) {
-        int[] s = state.getDoubles();
+        int[] s = state.ints;
         if ((s[1] == s[2] && s[2] == s[3]) ||
                 (s[1] == s[5] && s[5] == s[9]) ||
                 (s[1] == s[4] && s[4] == s[7]))

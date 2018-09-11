@@ -38,7 +38,7 @@ public class Neurd implements Reproductive {
         try {
             memory.add(name, gr);
         } catch (NoSuchElementException e) {
-            memory.add(name, brain.layerGuide, gr);
+            memory.add(name, brain.getLayerGuide(), gr);
         }
     }
 

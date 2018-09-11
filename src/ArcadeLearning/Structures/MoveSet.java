@@ -22,21 +22,27 @@ public class MoveSet implements Collection<Move> {
         Link cursor = first.next;
         if (o instanceof State) {
             while (cursor != last) {
-                int compare = State.compare(((State) o).ints, cursor.move.state);
-                if (compare == 0)
-                    return cursor;
-                if (compare > 0)
-                    return null;
-                cursor = cursor.next;
+                int compare = State.compare(((State) o).ints, cursor.move.state.ints);
+                if (compare < 0)
+                    cursor = cursor.next;
+                else {
+                    if (compare == 0)
+                        return cursor;
+                    else
+                        return null;
+                }
             }
         } else if (o instanceof Move) {
             while (cursor != last) {
-                int compare = State.compare(((Move) o).ints, cursor.move.state);
-                if (compare == 0)
-                    return cursor;
-                if (compare > 0)
-                    return null;
-                cursor = cursor.next;
+                int compare = State.compare(((Move) o).ints, cursor.move.state.ints);
+                if (compare < 0)
+                    cursor = cursor.next;
+                else {
+                    if (compare == 0)
+                        return cursor;
+                    else
+                        return null;
+                }
             }
         }
         return null;
@@ -105,17 +111,20 @@ public class MoveSet implements Collection<Move> {
     public boolean add(Move move) {
         Link cursor = first.next;
         while (cursor != last) {
-            int compare = State.compare(move.state, cursor.move.state);
-            if (compare == 0) {
-                if (move.equals(cursor.move))
-                    return false;
-                cursor.move = move;
-                return true;
-            } if (compare < 0) {
-                new Link(cursor.prev, move, cursor);
-                return true;
+            int compare = State.compare(move.state.ints, cursor.move.state.ints);
+            if (compare > 0)
+                cursor = cursor.next;
+            else {
+                if (compare == 0) {
+                    if (move.equals(cursor.move))
+                        return false;
+                    cursor.move = move;
+                    return true;
+                } else {
+                    new Link(cursor.prev, move, cursor);
+                    return true;
+                }
             }
-            cursor = cursor.next;
         }
         new Link(last.prev, move, last);
         return true;

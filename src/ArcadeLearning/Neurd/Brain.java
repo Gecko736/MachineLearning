@@ -2,15 +2,32 @@ package ArcadeLearning.Neurd;
 
 import ArcadeLearning.ArrayLengthException;
 import ArcadeLearning.Move;
-import sun.plugin.javascript.navig4.Layer;
 
 import java.util.Collection;
 
+/**
+ * Brain object contains a neural network of any given size.
+ */
 public class Brain {
-    protected int[] layerGuide;
+    /**
+     * int[] contains the number of neurons in each layer of the network. This
+     * includes the input layer.
+     */
+    private final int[] layerGuide;
 
+    /**
+     *  Layer[] contains the neurons of the network. This does not include the
+     *  input layer, as the input values are given, not calculated.
+     */
     private Layer[] layers;
 
+    /**
+     * Constructor takes in an int[] of the number of neurons of each layer and
+     * instantiates them with random weights an biases between -1 and 1.
+     *
+     * @param layers the number of neurons in each layer including the input
+     *               values
+     */
     public Brain(int[] layers) {
         this.layers = new Layer[layers.length - 1];
         matrix = new double[layers.length][];
@@ -22,12 +39,36 @@ public class Brain {
         layerGuide = layers;
     }
 
+    /**
+     * Constructor takes in a double[][][] of weights and biases and creates
+     * the layers of neurons with the given values. The values are copied into
+     * the weights array in each neuron, not assigned, to maintain integrity.
+     *
+     * @param mind all weights and biases for this network
+     */
     public Brain(double[][][] mind) {
         layers = new Layer[mind.length];
         for (int i = 0; i < mind.length; i++)
             layers[i] = new Layer(mind[i]);
+
+        layerGuide = new int[mind.length + 1];
+        layerGuide[0] = mind[0][0].length;
+        for (int i = 0; i < mind.length; i++)
+            layerGuide[i + 1] = mind[i].length;
     }
 
+    /**
+     * Method takes a numerical input and generates a numerical output. Input
+     * and output are in integer form even though the network thinks is doubles
+     * to allow a measure of uncertainty in the network. In this method, the
+     * values are just cast to ints. In the backpropagation algorithm, 0.5 is
+     * added to the desired output values, so that the network learns to
+     * generate numbers in the middle of the range of possible values that will
+     * give the desired int.
+     *
+     * @param input numerical input
+     * @return numerical output
+     */
     public double[] move(int[] input) {
         double[] nums = new double[input.length];
         for (int i = 0; i < nums.length; i++)
@@ -39,6 +80,13 @@ public class Brain {
         return nums;
     }
 
+    /**
+     * Method takes training data and backpropagates the network against it
+     * until the cost differential stops going down.
+     *
+     * @param moves training data
+     * @return final cost differential
+     */
     public double learn(Collection<Move> moves) {
         boolean go;
         double lastCost = -1;
@@ -50,9 +98,23 @@ public class Brain {
         return lastCost;
     }
 
+    /**
+     * double[][] holds the activation values of every neuron.
+     */
     private double[][] matrix;
+
+    /**
+     * 4D array holds the cost differentials for every weight and bias in the
+     * network for a given collection of training data.
+     */
     private double[][][][] allCostDiffs;
 
+    /**
+     * Method trains the network against given inputs and outputs.
+     *
+     * @param moves training data
+     * @return cost difference of updated network
+     */
     private double backpropagate(Collection<Move> moves) {
         allCostDiffs = new double[moves.size()][][][];
         for (int i = 0; i < allCostDiffs.length; i++) {
@@ -116,6 +178,13 @@ public class Brain {
         return cost;
     }
 
+    /**
+     * Method calculates the overall cost differential of the network for a
+     * given collection of training data.
+     *
+     * @param moves training data
+     * @return cost differential
+     */
     public double cost(Collection<Move> moves) {
         double sum = 0;
         for (Move move : moves) {
@@ -126,6 +195,15 @@ public class Brain {
         return sum / moves.size();
     }
 
+    /**
+     * Method calculates the cost derivatives of the biases of the neurons in
+     * the output layer. Then it calls its auxiliary method to calculate the
+     * weights of said neurons and continue the process up the network.
+     *
+     * @param output expected output
+     * @param i which instance of training data is begin tested by the
+     *          backpropagation algorithm
+     */
     private void setCostDiffs(double[] output, int i) {
         for (int j = 0; j < output.length; j++)
             allCostDiffs[i][allCostDiffs[i].length - 1][j][0] =
@@ -136,6 +214,16 @@ public class Brain {
                 setCostDiffsAux(i, x, y);
     }
 
+    /**
+     * Method calculates the cost derivatives of the weights of a specified
+     * neuron from the cost derivative of the bias, assuming that it has
+     * already been set.
+     *
+     * @param i which instance of training data is begin tested by the
+     *          backpropagation algorithm
+     * @param x layer index of the specified neuron
+     * @param y neuron index of the specified neuron
+     */
     private void setCostDiffsAux(int i, int x, int y) {
         double[] dCosts = allCostDiffs[i][x][y];
         double[] acts = matrix[x];
@@ -150,8 +238,21 @@ public class Brain {
         }
     }
 
+    /**
+     * 3D array holds the cost differentials for every weight and bias in the
+     * network for any one instance of training data.
+     */
     private double[][][] costDiffs;
 
+    /**
+     * Method sets the activations of each neuron according to each move in the
+     * given move set. Then it puts the cost differentials of the biases of the
+     * output layer neurons in costDiffs. Then it calls an auxiliary method to
+     * finish filling costDiffs.
+     *
+     *
+     * @param moves training data
+     */
     private void getCostDiffs(Collection<Move> moves) {
         costDiffs = new double[layerGuide.length - 1][][];
         for (int i = 0; i < layerGuide.length - 1; i++)
@@ -172,6 +273,14 @@ public class Brain {
         }
     }
 
+    /**
+     * Method calculates the cost differentials of the weights of a specified
+     * neuron assuming that the cost differential of its bias has already been
+     * set in costDiffs.
+     *
+     * @param x x coordinate of neuron
+     * @param y y coordinate of neuron
+     */
     private void getCostDiffsAux(int x, int y) {
         double[] dCosts = costDiffs[x][y];
         double[] acts = matrix[x];
@@ -186,6 +295,14 @@ public class Brain {
         }
     }
 
+    /**
+     * Method creates a child of this Brain with weight and bias values set
+     * randomly within a specified range.
+     *
+     * @param range maximum difference between a child's weight/bias values and
+     *              the corresponding values here
+     * @return a Brain that is a slight variation of this Brain
+     */
     public Brain child(double range) {
         Brain child = new Brain(layerGuide);
         for (int x = 0; x < this.layers.length; x++)
@@ -196,18 +313,29 @@ public class Brain {
         return child;
     }
 
+    /**
+     * Method creates a child of this Brain with weight and bias values set
+     * in the general direction of the step vector generated by the given
+     * move set.
+     *
+     * @param moves training data
+     * @return a Brain
+     */
     public Brain child(Collection<Move> moves) {
-        getCostDiffs(moves);
         Brain child = new Brain(layerGuide);
+        child.getCostDiffs(moves);
         for (int x = 0; x < this.layers.length; x++)
             for (int y = 0; y < this.layers[x].neurons.length; y++)
                 for (int z = 0; z < this.layers[x].neurons[y].weights.length; z++)
                     child.layers[x].neurons[y].weights[z] = this.layers[x].neurons[y].weights[z]
-                            + Math.random() * costDiffs[x][y][z];
-        costDiffs = null;
+                            + Math.random() * child.costDiffs[x][y][z];
+        child.costDiffs = null;
         return child;
     }
 
+    /**
+     * Method prints out the weights and biases of each neuron in the terminal.
+     */
     public void print() {
         for (int x = 0; x < this.layers.length; x++) {
             System.out.print("layer " + x);
@@ -221,6 +349,11 @@ public class Brain {
         System.out.println();
     }
 
+    /**
+     * Method returns a 3D array of the weights and biases in this network.
+     *
+     * @return a 3D array of the weights and biases in this network.
+     */
     public double[][][] getMind() {
         double[][][] output = new double[layers.length][][];
         for (int i = 0; i < layers.length; i++) {
@@ -256,14 +389,42 @@ public class Brain {
         return layerGuide[layerGuide.length - 1];
     }
 
+    /**
+     * Method returns the guide to the number of layers and the number of
+     * neurons in each layer.
+     *
+     * @return layerGuide
+     */
+    public int[] getLayerGuide() {
+        return layerGuide;
+    }
+
+    /**
+     * Method returns an independent copy of this network.
+     *
+     * @return and independent copy of this network.
+     */
     @Override
     public Brain clone() {
         return new Brain(getMind());
     }
 
+    /**
+     * Class stores an array of Neurons.
+     */
     private class Layer implements Cloneable {
-        private Neuron[] neurons;
+        /**
+         * Neuron[] stores the neurons in this network.
+         */
+        private final Neuron[] neurons;
 
+        /**
+         * Constructor instantiates a specified number of neurons with a
+         * specified number of weights in each.
+         *
+         * @param thisLength the number of neurons in this layer
+         * @param aboveLength the number of neurons in the layer above
+         */
         private Layer(int thisLength, int aboveLength) {
             neurons = new Neuron[thisLength];
             for (int i = 0; i < thisLength; i++)
@@ -297,7 +458,7 @@ public class Brain {
         }
 
         public class Neuron implements Cloneable {
-            private double[] weights;
+            private final double[] weights;
 
             private Neuron(int weights) {
                 this.weights = new double[weights + 1];

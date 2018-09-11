@@ -1,102 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0b66a821-94e6-49a2-8fe3-10a73d8bcbd3" name="Default" comment="" />
+    <list default="true" id="0b66a821-94e6-49a2-8fe3-10a73d8bcbd3" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/ArcadeLearning/Structures/World.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Arcade.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/ArrayLengthException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Brain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Brain$Layer$Neuron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Brain$Layer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Brain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Memory$Friend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Memory.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Neurd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/STMBrain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/STMBrain$Layer$Neuron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/STMBrain$Layer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/STMBrain$ShortTermMem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/STMBrain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Neurd/STMNeurd.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/State.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/Hierarchy.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/MoveSet$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/MoveSet$Link.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/MoveSet$MoveIterator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/MoveSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/PlayerMap$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/PlayerMap$Letter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/PlayerMap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/Reproductive.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/ArcadeLearning/Structures/Selector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/TicTacToe$Generator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/TicTacToe.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder/Brain$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder/Brain$Layer$Neuron.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder/Brain$Layer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder/Brain.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder/Data.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ArcadeLearning/WayFinder/Test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArcadeLearning/ArrayLengthException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArcadeLearning/ArrayLengthException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArcadeLearning/Structures/MoveSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArcadeLearning/Structures/MoveSet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ArcadeLearning/Structures/PlayerMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ArcadeLearning/Structures/Population.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-1425233407">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.14" value="2" />
+          <entry key="project.open.time.15" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="1322" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="1322" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="21" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.boot.mvc.usages" />
+      <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.spring.boot.run.usages" />
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="Brain.java" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1150">
-              <caret line="233" column="11" lean-forward="false" selection-start-line="233" selection-start-column="11" selection-end-line="233" selection-end-column="11" />
+            <state relative-caret-position="1462">
+              <caret line="432" selection-start-line="432" selection-end-line="432" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#Brain#0;class#Brain#0" expanded="false" />
-                <element signature="method#Brain#1;class#Brain#0" expanded="false" />
-                <element signature="method#move#0;class#Brain#0" expanded="false" />
-                <element signature="method#learn#0;class#Brain#0" expanded="false" />
-                <element signature="method#backpropagate#0;class#Brain#0" expanded="false" />
-                <element signature="method#cost#0;class#Brain#0" expanded="false" />
-                <element signature="method#setCostDiffs#0;class#Brain#0" expanded="false" />
-                <element signature="method#setCostDiffsAux#0;class#Brain#0" expanded="false" />
-                <element signature="method#getCostDiffs#0;class#Brain#0" expanded="false" />
-                <element signature="method#getCostDiffsAux#0;class#Brain#0" expanded="false" />
-                <element signature="method#child#0;class#Brain#0" expanded="false" />
-                <element signature="method#child#1;class#Brain#0" expanded="false" />
-                <element signature="method#print#0;class#Brain#0" expanded="false" />
-                <element signature="method#getMind#0;class#Brain#0" expanded="false" />
-                <element signature="method#setMind#0;class#Brain#0" expanded="false" />
-                <element signature="method#Layer#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#Layer#1;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#act#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#setActs#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#clone#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#Neuron#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#Neuron#1;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#act#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#setAct#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-                <element signature="method#clone#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
+                <element signature="docComment;class#Brain#0" />
+                <element signature="docComment;field#layerGuide#0;class#Brain#0" />
+                <element signature="docComment;field#layers#0;class#Brain#0" />
+                <element signature="docComment;method#Brain#0;class#Brain#0" />
+                <element signature="method#Brain#0;class#Brain#0" />
+                <element signature="docComment;method#Brain#1;class#Brain#0" />
+                <element signature="method#Brain#1;class#Brain#0" />
+                <element signature="docComment;method#move#0;class#Brain#0" />
+                <element signature="method#move#0;class#Brain#0" />
+                <element signature="docComment;method#learn#0;class#Brain#0" />
+                <element signature="method#learn#0;class#Brain#0" />
+                <element signature="docComment;field#matrix#0;class#Brain#0" />
+                <element signature="docComment;field#allCostDiffs#0;class#Brain#0" />
+                <element signature="docComment;method#backpropagate#0;class#Brain#0" />
+                <element signature="method#backpropagate#0;class#Brain#0" />
+                <element signature="docComment;method#cost#0;class#Brain#0" />
+                <element signature="method#cost#0;class#Brain#0" />
+                <element signature="docComment;method#setCostDiffs#0;class#Brain#0" />
+                <element signature="method#setCostDiffs#0;class#Brain#0" />
+                <element signature="docComment;method#setCostDiffsAux#0;class#Brain#0" />
+                <element signature="method#setCostDiffsAux#0;class#Brain#0" />
+                <element signature="docComment;field#costDiffs#0;class#Brain#0" />
+                <element signature="docComment;method#getCostDiffs#0;class#Brain#0" />
+                <element signature="method#getCostDiffs#0;class#Brain#0" />
+                <element signature="docComment;method#getCostDiffsAux#0;class#Brain#0" />
+                <element signature="method#getCostDiffsAux#0;class#Brain#0" />
+                <element signature="docComment;method#child#0;class#Brain#0" />
+                <element signature="method#child#0;class#Brain#0" />
+                <element signature="docComment;method#child#1;class#Brain#0" />
+                <element signature="method#child#1;class#Brain#0" />
+                <element signature="docComment;method#print#0;class#Brain#0" />
+                <element signature="method#print#0;class#Brain#0" />
+                <element signature="docComment;method#getMind#0;class#Brain#0" />
+                <element signature="method#getMind#0;class#Brain#0" />
+                <element signature="method#setMind#0;class#Brain#0" />
+                <element signature="docComment;method#getLayerGuide#0;class#Brain#0" />
+                <element signature="docComment;method#clone#0;class#Brain#0" />
+                <element signature="docComment;class#Layer#0;class#Brain#0" />
+                <element signature="docComment;field#neurons#0;class#Layer#0;class#Brain#0" />
+                <element signature="docComment;method#Layer#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#Layer#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#Layer#1;class#Layer#0;class#Brain#0" />
+                <element signature="method#act#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#setActs#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#clone#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#Neuron#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#Neuron#1;class#Neuron#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#act#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#setAct#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+                <element signature="method#clone#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Neurd.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/World.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="700">
-              <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-              <folding>
-                <element signature="method#Neurd#0;class#Neurd#0" expanded="false" />
-                <element signature="method#Neurd#1;class#Neurd#0" expanded="false" />
-                <element signature="method#add#0;class#Neurd#0" expanded="false" />
-                <element signature="method#move#0;class#Neurd#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameRecord.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/GameRecord.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+            <state relative-caret-position="384">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#GameRecord#0;class#GameRecord#0" expanded="false" />
-                <element signature="method#GameRecord#1;class#GameRecord#0" expanded="false" />
-                <element signature="method#getMoves#0;class#GameRecord#0" expanded="false" />
-                <element signature="method#getMoves#1;class#GameRecord#0" expanded="false" />
-                <element signature="method#getMoves#2;class#GameRecord#0" expanded="false" />
-                <element signature="method#winner#0;class#GameRecord#0" expanded="false" />
-                <element signature="method#loser#0;class#GameRecord#0" expanded="false" />
-                <element signature="method#endGame#0;class#GameRecord#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Memory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Memory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="method#add#0;class#Memory#0" expanded="false" />
-                <element signature="method#add#1;class#Memory#0" expanded="false" />
-                <element signature="method#Friend#0;class#Friend#0;class#Memory#0" expanded="false" />
-                <element signature="method#Friend#1;class#Friend#0;class#Memory#0" expanded="false" />
-                <element signature="method#add#0;class#Friend#0;class#Memory#0" expanded="false" />
-                <element signature="method#move#0;class#Friend#0;class#Memory#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -122,16 +189,12 @@
       <find>add</find>
     </findStrings>
   </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/StringMap.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/FriendQueue.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Reproducer2.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Friend.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/MoveMemory.java" />
@@ -139,11 +202,8 @@
         <option value="$PROJECT_DIR$/src/ArcadeLearning/HeapSet.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Selector.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/SortedLinkedList.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/Population.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Hierarchy.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/HeapSet.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/World.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/PlayerMap.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Reproducer.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/IllegalArrayLength.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/IllegalArrayLengthException.java" />
@@ -158,7 +218,6 @@
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/STMBrain.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/Brain.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/STMBrain.java" />
-        <option value="$PROJECT_DIR$/src/TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/WayFinder.java" />
         <option value="$PROJECT_DIR$/src/WayFinderBrain.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/Reproductive.java" />
@@ -172,15 +231,21 @@
         <option value="$PROJECT_DIR$/src/WayFinder/Brain.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Player.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Reproductive.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/MoveSet.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Move.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/State.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/TieException.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Arcade.java" />
-        <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Memory.java" />
         <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/GameRecord.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Display.java" />
+        <option value="$PROJECT_DIR$/src/TicTacToe.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/MoveSet.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/PlayerMap.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/Population.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/ArrayLengthException.java" />
+        <option value="$PROJECT_DIR$/src/ArcadeLearning/Structures/World.java" />
       </list>
     </option>
   </component>
@@ -191,26 +256,20 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-11" />
-    <option name="y" value="-11" />
-    <option name="width" value="1942" />
-    <option name="height" value="1102" />
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="1944" />
+    <option name="height" value="1104" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -243,27 +302,21 @@
               <item name="ArcadeLearning" type="462c0819:PsiDirectoryNode" />
               <item name="Structures" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="MachineLearning" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MachineLearning" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="WayFinder" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536617999428" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -277,117 +330,66 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="WayFinder.Test" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="MachineLearning" />
-      <envs />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WayFinder.Test" />
+      <module name="MachineLearning" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
+      <module name="ArcadeLearning" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="ArcadeLearning" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
   </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -438,44 +440,57 @@
       <workItem from="1529473361670" duration="15667000" />
       <workItem from="1529536199089" duration="652000" />
       <workItem from="1529820726273" duration="14000" />
-      <workItem from="1530282255023" duration="8000" />
+      <workItem from="1530282255023" duration="960000" />
+      <workItem from="1530634507255" duration="4016000" />
+      <workItem from="1530747157796" duration="1098000" />
+      <workItem from="1530752611026" duration="118000" />
+      <workItem from="1531171334010" duration="3629000" />
+      <workItem from="1536250548300" duration="14799000" />
+      <workItem from="1536275695046" duration="2045000" />
+      <workItem from="1536281384960" duration="4560000" />
+      <workItem from="1536607303071" duration="531000" />
+      <workItem from="1536608309522" duration="344000" />
+      <workItem from="1536609759866" duration="364000" />
+      <workItem from="1536611521372" duration="12000" />
+      <workItem from="1536616059796" duration="2502000" />
+      <workItem from="1536622404742" duration="594000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="282958000" />
+    <option name="totallyTimeSpent" value="318522000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1102" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38125667" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51331204" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20323886" />
+      <window_info id="Structure" order="1" weight="0.24939272" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3290735" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.3290735" />
+      <window_info anchor="bottom" id="Run" order="3" weight="0.38125667" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.51331204" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50040483" side_tool="true" weight="0.32890365" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49959514" weight="0.32890365" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -484,57 +499,29 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="40" />
-    </breakpoint-manager>
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedHashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4800">
-          <caret line="162" column="13" lean-forward="false" selection-start-line="162" selection-start-column="13" selection-end-line="162" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/javafx-src.zip!/javafx/collections/transformation/SortedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-150">
-          <caret line="110" column="17" lean-forward="false" selection-start-line="110" selection-start-column="17" selection-end-line="110" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/SortedLinkedList.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/Population.java" />
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/MoveMemory.java" />
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/MoveSet.java" />
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/HeapSet.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="211" column="28" lean-forward="false" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
+          <caret line="211" column="28" selection-start-line="211" selection-start-column="28" selection-end-line="211" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Vector.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
-          <caret line="82" column="13" lean-forward="false" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
+          <caret line="82" column="13" selection-start-line="82" selection-start-column="13" selection-end-line="82" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -548,381 +535,424 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collection.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-576">
-          <caret line="143" column="17" lean-forward="false" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/World.java" />
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/NeuralNetwork.java" />
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/GameSet.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/PlayerMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="98" column="9" lean-forward="false" selection-start-line="98" selection-start-column="9" selection-end-line="98" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/SuppressWarnings.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
-          <caret line="53" column="18" lean-forward="false" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
+          <caret line="53" column="18" selection-start-line="53" selection-start-column="18" selection-end-line="53" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Outcome.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/Selector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/Hierarchy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="11" column="23" lean-forward="false" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/Layer.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/STMNeurd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain/Brain.java" />
     <entry file="file://$PROJECT_DIR$/src/WayFinder/Neurd.java" />
     <entry file="file://$PROJECT_DIR$/src/WayFinder/Population.java" />
-    <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-          <folding>
-            <element signature="method#initialState#0;class#TicTacToe#0" expanded="false" />
-            <element signature="method#newState#0;class#TicTacToe#0" expanded="false" />
-            <element signature="method#randomLegalMove#0;class#TicTacToe#0" expanded="false" />
-            <element signature="method#legalMoves#0;class#TicTacToe#0" expanded="false" />
-            <element signature="method#legal#0;class#TicTacToe#0" expanded="false" />
-            <element signature="method#gameOver#0;class#TicTacToe#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/WayFinder/Data.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WayFinder/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/STMBrain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="37" column="22" lean-forward="false" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
-          <folding />
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/WayFinder/Brain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="748">
-          <caret line="239" column="37" lean-forward="false" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
-          <folding>
-            <element signature="docComment;class#Brain#0" expanded="false" />
-            <element signature="method#population#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#best#0;class#Brain#0" expanded="false" />
-            <element signature="method#best#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#layers#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#MAX#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#layerguide#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#Brain#0;class#Brain#0" expanded="false" />
-            <element signature="method#Brain#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#Brain#1;class#Brain#0" expanded="false" />
-            <element signature="method#Brain#1;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#output#0;class#Brain#0" expanded="false" />
-            <element signature="method#output#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#print#0;class#Brain#0" expanded="false" />
-            <element signature="method#print#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#print#1;class#Brain#0" expanded="false" />
-            <element signature="method#print#1;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#study#0;class#Brain#0" expanded="false" />
-            <element signature="method#study#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#learn#0;class#Brain#0" expanded="false" />
-            <element signature="method#learn#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#matrix#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#allCostDiffs#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#backpropagate#0;class#Brain#0" expanded="false" />
-            <element signature="method#backpropagate#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#cost#0;class#Brain#0" expanded="false" />
-            <element signature="method#cost#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#setCostDiffs#0;class#Brain#0" expanded="false" />
-            <element signature="method#setCostDiffs#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#setCostDiffsAux#0;class#Brain#0" expanded="false" />
-            <element signature="method#setCostDiffsAux#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#neurons#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#Layer#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Layer#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#Layer#1;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Layer#1;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#acts#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#acts#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#setActs#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#setActs#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;field#weights#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#Neuron#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Neuron#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#Neuron#1;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Neuron#1;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#act#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#act#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#setAct#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#setAct#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#clone#0;class#Brain#0" expanded="false" />
-            <element signature="docComment;method#child#0;class#Brain#0" expanded="false" />
-            <element signature="method#child#0;class#Brain#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/MoveSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="25">
-          <caret line="20" column="32" lean-forward="false" selection-start-line="20" selection-start-column="32" selection-end-line="20" selection-end-column="32" />
-          <folding>
-            <element signature="method#MoveSet#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#find#0;class#MoveSet#0" expanded="false" />
-            <element signature="class#MoveIterator#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#next#0;class#MoveIterator#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#toArray#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#toArray#1;class#MoveSet#0" expanded="false" />
-            <element signature="method#add#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#remove#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#containsAll#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#addAll#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#removeAll#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#retainAll#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#clear#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#Link#0;class#Link#0;class#MoveSet#0" expanded="false" />
-            <element signature="method#delete#0;class#Link#0;class#MoveSet#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/State.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="52" column="8" lean-forward="false" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding>
-            <element signature="method#State#0;class#State#0" expanded="false" />
-            <element signature="method#getDoubles#0;class#State#0" expanded="false" />
-            <element signature="method#equals#1;class#State#0" expanded="false" />
-            <element signature="method#toString#0;class#State#0" expanded="false" />
-            <element signature="method#compare#0;class#State#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Move.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
-          <folding>
-            <element signature="method#Move#0;class#Move#0" expanded="false" />
-            <element signature="method#Move#1;class#Move#0" expanded="false" />
-            <element signature="method#getMove#0;class#Move#0" expanded="false" />
-            <element signature="method#getState#0;class#Move#0" expanded="false" />
-            <element signature="method#toString#0;class#Move#0" expanded="false" />
-            <element signature="method#equals#0;class#Move#0" expanded="false" />
-          </folding>
+          <caret line="239" column="37" selection-start-line="239" selection-start-column="37" selection-end-line="239" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2768">
-          <caret line="136" column="13" lean-forward="false" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/ArrayLengthException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="25" lean-forward="false" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
-          <folding>
-            <element signature="e#136#137#0" expanded="false" />
-            <element signature="e#201#202#0" expanded="false" />
-          </folding>
+          <caret line="136" column="13" selection-start-line="136" selection-start-column="13" selection-end-line="136" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/TieException.java" />
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/IllegalArgumentException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="50" column="11" lean-forward="false" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
+          <caret line="50" column="11" selection-start-line="50" selection-start-column="11" selection-end-line="50" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/Comparable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="95" column="17" lean-forward="false" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
+          <caret line="95" column="17" selection-start-line="95" selection-start-column="17" selection-end-line="95" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="1152" column="24" lean-forward="false" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="24" />
+          <caret line="1152" column="24" selection-start-line="1152" selection-start-column="15" selection-end-line="1152" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/PriorityQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2276">
-          <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+          <caret line="120" column="11" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
-          <caret line="331" column="50" lean-forward="false" selection-start-line="331" selection-start-column="47" selection-end-line="331" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Arcade.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1325">
-          <caret line="62" column="75" lean-forward="false" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
-          <folding />
+          <caret line="331" column="50" selection-start-line="331" selection-start-column="47" selection-end-line="331" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Collections.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="600">
-          <caret line="5397" column="30" lean-forward="false" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
+          <caret line="5397" column="30" selection-start-line="5397" selection-start-column="30" selection-end-line="5397" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Display.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
-          <folding />
+        <state relative-caret-position="2550">
+          <caret line="128" column="17" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Reproductive.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_144/src.zip!/java/util/Stack.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="700">
-          <caret line="73" column="1" lean-forward="false" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-          <folding>
-            <element signature="method#Neurd#0;class#Neurd#0" expanded="false" />
-            <element signature="method#Neurd#1;class#Neurd#0" expanded="false" />
-            <element signature="method#add#0;class#Neurd#0" expanded="false" />
-            <element signature="method#move#0;class#Neurd#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1150">
-          <caret line="233" column="11" lean-forward="false" selection-start-line="233" selection-start-column="11" selection-end-line="233" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#Brain#0;class#Brain#0" expanded="false" />
-            <element signature="method#Brain#1;class#Brain#0" expanded="false" />
-            <element signature="method#move#0;class#Brain#0" expanded="false" />
-            <element signature="method#learn#0;class#Brain#0" expanded="false" />
-            <element signature="method#backpropagate#0;class#Brain#0" expanded="false" />
-            <element signature="method#cost#0;class#Brain#0" expanded="false" />
-            <element signature="method#setCostDiffs#0;class#Brain#0" expanded="false" />
-            <element signature="method#setCostDiffsAux#0;class#Brain#0" expanded="false" />
-            <element signature="method#getCostDiffs#0;class#Brain#0" expanded="false" />
-            <element signature="method#getCostDiffsAux#0;class#Brain#0" expanded="false" />
-            <element signature="method#child#0;class#Brain#0" expanded="false" />
-            <element signature="method#child#1;class#Brain#0" expanded="false" />
-            <element signature="method#print#0;class#Brain#0" expanded="false" />
-            <element signature="method#getMind#0;class#Brain#0" expanded="false" />
-            <element signature="method#setMind#0;class#Brain#0" expanded="false" />
-            <element signature="method#Layer#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Layer#1;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#act#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#setActs#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#clone#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Neuron#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#Neuron#1;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#act#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#setAct#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-            <element signature="method#clone#0;class#Neuron#0;class#Layer#0;class#Brain#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="625">
+          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Memory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="44" column="50" lean-forward="false" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
+        <state relative-caret-position="493">
+          <caret line="44" column="50" selection-start-line="44" selection-start-column="50" selection-end-line="44" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#add#0;class#Memory#0" expanded="false" />
-            <element signature="method#add#1;class#Memory#0" expanded="false" />
-            <element signature="method#Friend#0;class#Friend#0;class#Memory#0" expanded="false" />
-            <element signature="method#Friend#1;class#Friend#0;class#Memory#0" expanded="false" />
-            <element signature="method#add#0;class#Friend#0;class#Memory#0" expanded="false" />
-            <element signature="method#move#0;class#Friend#0;class#Memory#0" expanded="false" />
+            <element signature="method#add#0;class#Memory#0" />
+            <element signature="method#add#1;class#Memory#0" />
+            <element signature="method#Friend#0;class#Friend#0;class#Memory#0" />
+            <element signature="method#Friend#1;class#Friend#0;class#Memory#0" />
+            <element signature="method#add#0;class#Friend#0;class#Memory#0" />
+            <element signature="method#move#0;class#Friend#0;class#Memory#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Neurd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="40" column="50" selection-start-line="40" selection-start-column="50" selection-end-line="40" selection-end-column="50" />
+          <folding>
+            <element signature="method#Neurd#0;class#Neurd#0" />
+            <element signature="method#Neurd#1;class#Neurd#0" />
+            <element signature="method#move#0;class#Neurd#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="37" lean-forward="true" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/STMBrain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="37" column="22" selection-start-line="37" selection-start-column="22" selection-end-line="37" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/STMNeurd.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Reproductive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/GameRecord.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="60" column="44" lean-forward="false" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
+        <state relative-caret-position="527">
+          <caret line="60" column="44" selection-start-line="60" selection-start-column="44" selection-end-line="60" selection-end-column="44" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#GameRecord#0;class#GameRecord#0" expanded="false" />
-            <element signature="method#GameRecord#1;class#GameRecord#0" expanded="false" />
-            <element signature="method#getMoves#0;class#GameRecord#0" expanded="false" />
-            <element signature="method#getMoves#1;class#GameRecord#0" expanded="false" />
-            <element signature="method#getMoves#2;class#GameRecord#0" expanded="false" />
-            <element signature="method#winner#0;class#GameRecord#0" expanded="false" />
-            <element signature="method#loser#0;class#GameRecord#0" expanded="false" />
-            <element signature="method#endGame#0;class#GameRecord#0" expanded="false" />
+            <element signature="method#GameRecord#0;class#GameRecord#0" />
+            <element signature="method#GameRecord#1;class#GameRecord#0" />
+            <element signature="method#getMoves#0;class#GameRecord#0" />
+            <element signature="method#getMoves#1;class#GameRecord#0" />
+            <element signature="method#getMoves#2;class#GameRecord#0" />
+            <element signature="method#winner#0;class#GameRecord#0" />
+            <element signature="method#loser#0;class#GameRecord#0" />
+            <element signature="method#endGame#0;class#GameRecord#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/Hierarchy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="66" selection-start-line="13" selection-start-column="66" selection-end-line="13" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/MoveSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="113" column="81" lean-forward="true" selection-start-line="113" selection-start-column="81" selection-end-line="113" selection-end-column="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/Population.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="174" column="51" selection-start-line="174" selection-start-column="51" selection-end-line="174" selection-end-column="51" />
+          <folding>
+            <element signature="method#contains#0;class#Population#0" />
+            <element signature="method#containsKey#0;class#Population#0" />
+            <element signature="method#containsValue#0;class#Population#0" />
+            <element signature="method#add#0;class#Population#0" />
+            <element signature="method#put#0;class#Population#0" />
+            <element signature="e#4621#4622#0" expanded="true" />
+            <element signature="e#4669#4670#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/Selector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="49" selection-start-line="4" selection-start-column="49" selection-end-line="4" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Move.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="41" lean-forward="true" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding>
+            <element signature="method#Move#0;class#Move#0" />
+            <element signature="method#Move#1;class#Move#0" />
+            <element signature="method#getMove#0;class#Move#0" />
+            <element signature="method#getState#0;class#Move#0" />
+            <element signature="method#toString#0;class#Move#0" />
+            <element signature="method#equals#0;class#Move#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/State.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+          <folding>
+            <element signature="method#State#0;class#State#0" />
+            <element signature="method#getDoubles#0;class#State#0" />
+            <element signature="method#equals#1;class#State#0" />
+            <element signature="method#toString#0;class#State#0" />
+            <element signature="method#compare#0;class#State#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Game.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="78" column="29" selection-start-line="78" selection-start-column="29" selection-end-line="78" selection-end-column="29" />
+          <folding>
+            <element signature="method#initialState#0;class#TicTacToe#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/ArrayLengthException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Arcade.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Neurd/Brain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1462">
+          <caret line="432" selection-start-line="432" selection-end-line="432" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="docComment;class#Brain#0" />
+            <element signature="docComment;field#layerGuide#0;class#Brain#0" />
+            <element signature="docComment;field#layers#0;class#Brain#0" />
+            <element signature="docComment;method#Brain#0;class#Brain#0" />
+            <element signature="method#Brain#0;class#Brain#0" />
+            <element signature="docComment;method#Brain#1;class#Brain#0" />
+            <element signature="method#Brain#1;class#Brain#0" />
+            <element signature="docComment;method#move#0;class#Brain#0" />
+            <element signature="method#move#0;class#Brain#0" />
+            <element signature="docComment;method#learn#0;class#Brain#0" />
+            <element signature="method#learn#0;class#Brain#0" />
+            <element signature="docComment;field#matrix#0;class#Brain#0" />
+            <element signature="docComment;field#allCostDiffs#0;class#Brain#0" />
+            <element signature="docComment;method#backpropagate#0;class#Brain#0" />
+            <element signature="method#backpropagate#0;class#Brain#0" />
+            <element signature="docComment;method#cost#0;class#Brain#0" />
+            <element signature="method#cost#0;class#Brain#0" />
+            <element signature="docComment;method#setCostDiffs#0;class#Brain#0" />
+            <element signature="method#setCostDiffs#0;class#Brain#0" />
+            <element signature="docComment;method#setCostDiffsAux#0;class#Brain#0" />
+            <element signature="method#setCostDiffsAux#0;class#Brain#0" />
+            <element signature="docComment;field#costDiffs#0;class#Brain#0" />
+            <element signature="docComment;method#getCostDiffs#0;class#Brain#0" />
+            <element signature="method#getCostDiffs#0;class#Brain#0" />
+            <element signature="docComment;method#getCostDiffsAux#0;class#Brain#0" />
+            <element signature="method#getCostDiffsAux#0;class#Brain#0" />
+            <element signature="docComment;method#child#0;class#Brain#0" />
+            <element signature="method#child#0;class#Brain#0" />
+            <element signature="docComment;method#child#1;class#Brain#0" />
+            <element signature="method#child#1;class#Brain#0" />
+            <element signature="docComment;method#print#0;class#Brain#0" />
+            <element signature="method#print#0;class#Brain#0" />
+            <element signature="docComment;method#getMind#0;class#Brain#0" />
+            <element signature="method#getMind#0;class#Brain#0" />
+            <element signature="method#setMind#0;class#Brain#0" />
+            <element signature="docComment;method#getLayerGuide#0;class#Brain#0" />
+            <element signature="docComment;method#clone#0;class#Brain#0" />
+            <element signature="docComment;class#Layer#0;class#Brain#0" />
+            <element signature="docComment;field#neurons#0;class#Layer#0;class#Brain#0" />
+            <element signature="docComment;method#Layer#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#Layer#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#Layer#1;class#Layer#0;class#Brain#0" />
+            <element signature="method#act#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#setActs#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#clone#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#Neuron#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#Neuron#1;class#Neuron#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#act#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#setAct#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+            <element signature="method#clone#0;class#Neuron#0;class#Layer#0;class#Brain#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ArcadeLearning/Structures/World.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>MachineLearning</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
